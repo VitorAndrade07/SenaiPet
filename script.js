@@ -1,6 +1,6 @@
 console.log("Bem-vindo ao sistema de gerenciamento de pets!");
 // passo 1 = cadastro pets
-function Pet(nome, especie, idade) {
+function Pet(nome, especie, idade){
     this.nome = nome;
     this.especie = especie;
     this.idade = idade;
@@ -23,9 +23,9 @@ function Pet(nome, especie, idade) {
 }
 
 const meusPets = [
-    new Pet("Rex", "Cachorro", 5),
-    new Pet("Mimi", "Gato", 2),
-    new Pet("Pingo", "Coelho", 3),
+    new Pet("Lima", "Cachorro", 5),
+    new Pet("Leaozinho", "Gato", 2),
+    new Pet("Morango", "Coelho", 3),
 ];
 
 const listarPets = () => {
@@ -52,8 +52,9 @@ function executarAcaoNosPets(acao) {
 function executar() {
     listarPets();
 
-    buscarPetPorNome("Rex");
-    buscarPetPorNome("Luna");
+    buscarPetPorNome("Lima");
+    buscarPetPorNome("Leaozinho");
+    buscarPetPorNome("Morango");
 
     executarAcaoNosPets((pet) => console.log(pet.saudacao()));
 
