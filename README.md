@@ -1,5 +1,3 @@
-# SenaiPet
-
 # SenaiPet | Veterinary Management System (JavaScript)
 A robust management platform designed for veterinary clinics, focusing on automated data handling and professional record-keeping.
 
